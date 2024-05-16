@@ -1,8 +1,9 @@
-# VLSI-LAB-EXP-5
+# SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE
 
-SIMULATION AND IMPLEMENTATION OF FINITE STATE MACHINE
+DATE:
 
 # AIM:
+
      To simulate and synthesis finite state machine using vivado.
 
 # APPARATUS REQUIRED: **
@@ -25,12 +26,12 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 
 STEP:7 compare the output with truth table.
 
-# Logic Diagram :
+Logic Diagram :
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-5/assets/6987778/34ec5d63-2b3b-4511-81ef-99f4572d5869)
 
 
-# VERILOG CODE:
+VERILOG CODE:
 
 module fsm(clk, rst, x, z);
 
@@ -94,7 +95,7 @@ assign z=(present_state==S3);
 
 endmodule
 
-# OUTPUT:
+OUTPUT:
 
 ![Screenshot 2024-04-16 142352](https://github.com/teja2134/VLSI-LAB-EXP-5/assets/161149578/64241411-73cd-4df9-ad41-b57f4a106097)
 
